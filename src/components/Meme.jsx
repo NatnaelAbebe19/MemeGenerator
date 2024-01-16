@@ -52,7 +52,7 @@ export default function Meme() {
         <input
           type="text"
           placeholder="Bottom Text"
-          name="Enter bottom Text"
+          name="bottomText"
           value={meme.bottomText}
           onChange={handleChange}
         />
