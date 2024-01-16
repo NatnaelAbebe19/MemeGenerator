@@ -44,7 +44,7 @@ export default function Meme() {
       <div className="inputs">
         <input
           type="text"
-          placeholder="Top Text"
+          placeholder="Enter Top Text"
           name="topText"
           value={meme.topText}
           onChange={handleChange}
@@ -52,7 +52,7 @@ export default function Meme() {
         <input
           type="text"
           placeholder="Bottom Text"
-          name="bottomText"
+          name="Enter bottom Text"
           value={meme.bottomText}
           onChange={handleChange}
         />
