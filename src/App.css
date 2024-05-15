@@ -1,3 +1,9 @@
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 .container {
   width: 600px;
   margin: 1rem, auto;
